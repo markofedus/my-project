@@ -1,0 +1,16 @@
+[user]
+	name = Marko Fedus
+	email = marko.fedus@gmail.com
+[gui]
+	recentrepo = C:/Users/user/Desktop/Resume project GOIT
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[alias]
+	ci = commit
+	lg = log
+	st = status
+	co = checkout
+	br = branch
