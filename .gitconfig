@@ -10,7 +10,10 @@
 	required = true
 [alias]
 	ci = commit
-	lg = log
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --branches
 	st = status
 	co = checkout
 	br = branch
+	[core]
+  pager = 
+  editor = nano
